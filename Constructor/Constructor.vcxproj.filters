@@ -18,5 +18,16 @@
     <ClInclude Include="Semantics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DefaultConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Constructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
