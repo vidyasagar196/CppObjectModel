@@ -1,9 +1,29 @@
-#include"Semantics.h"
+
 #include"DefaultConstructor.h"
 #include"CopyConstructor.h"
+#include"DataSemantics.h"
 
 int main()
 {
+
+	DataSemantics();
+
+	auto optr = CopyObjFuncPtr();
+	optr->Print();
+
+	auto o = CopyObjFunc();
+	o.Print();
+
+	GetRefObj(o);
+
+	Bear yogi;
+	Bear winnie = yogi;
+
+	ZooAnimal franny = yogi;
+
+	draw(yogi);   // invoke Bear::draw() 
+	draw(franny); // invoke ZooAnimal::draw() 
+
 	VirtualCopyCons VCopyObj;
 
 	VirtualCopyCons V2 = VCopyObj;

@@ -140,9 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Common.h" />
+    <ClInclude Include="..\DataSemantics.h" />
     <ClInclude Include="CopyConstructor.h" />
     <ClInclude Include="DefaultConstructor.h" />
-    <ClInclude Include="Semantics.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Constructor.cpp" />

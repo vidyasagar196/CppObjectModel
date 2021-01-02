@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Semantics.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DefaultConstructor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CopyConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataSemantics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
